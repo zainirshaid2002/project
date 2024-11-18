@@ -1,0 +1,46 @@
+name: thirdproject
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0  # تأكد من وضع رقم الإصدار هنا
+  cloud_firestore: ^5.4.4 # تأكد من وضع رقم الإصدار هنا
+  cupertino_icons: ^1.0.8
+  firebase_database: ^11.1.4
+
+  # الحزم الأخرى المتوافقة
+  async: ^2.11.0
+  boolean_selector: ^2.1.1
+  characters: ^1.3.0
+  clock: ^1.1.1
+  collection: ^1.18.0
+  fake_async: ^1.3.1
+  leak_tracker: ^10.0.5
+  leak_tracker_flutter_testing: ^3.0.5
+  matcher: ^0.12.16+1
+  material_color_utilities: ^0.11.1
+  meta: ^1.15.0
+  stack_trace: ^1.11.1
+  string_scanner: ^1.2.0
+  test_api: ^0.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/solgrid_logo.png
+    - assets/image2.jpeg
+    - assets/profile.png
+    - assets/solgrid_logo2.png
+
